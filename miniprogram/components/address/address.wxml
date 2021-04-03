@@ -1,0 +1,10 @@
+<!--components/address/address.wxml-->
+
+<picker mode="multiSelector"
+bindchange="bindChange" 
+ bindcolumnchange="bindMultiPickerColumnChange" 
+ value="{{index}}" range="{{ pickerRange }}">
+   <view>
+     收餐地址：<span>{{range}} --{{address}}</span> 
+   </view>
+</picker>

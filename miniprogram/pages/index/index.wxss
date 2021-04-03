@@ -1,0 +1,33 @@
+/* miniprogram/pages/index/index.wxss */
+
+.img image{
+  width: 100%;
+}
+.nav image{
+  
+  width: 100rpx;
+  height: 100rpx;
+  background-color: rgb(209, 157, 2,0.8);
+  border-radius: 30rpx;
+}
+.nav{
+  margin: 60rpx 0;
+  display: flex;
+}
+.nav view{
+ flex: 1;
+  text-align-last: center;
+}
+.nav view text{
+  border-radius: 20rpx;
+  box-shadow: 10rpx 10rpx grey;
+  color:rgba(0, 0, 0, 0.678) ;
+  padding: 25rpx;
+  font-size: large;
+  font-weight: 500;
+  border: 2px solid rgba(253, 209, 74, 0.712);
+  background-color:  rgba(253, 209, 74, 0.712);
+  position: relative;
+  top: -40rpx;
+  left: 20rpx;
+}

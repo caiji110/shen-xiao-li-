@@ -1,0 +1,27 @@
+<!--miniprogram/pages/orderstatus/orderstatus.wxml-->
+<text class="title">订单详情</text>
+<view class="order">
+   订单状态：进行中
+</view>
+<view class="order">
+  微信号：{{item.wxnum}}
+</view>
+<view class="order">
+  手机号码：{{item.phone}}
+</view>
+<view class="order">
+  <text selectable='true'> 订单编号：{{id}}</text>
+</view>
+<view class="order">
+   <view>第一选择菜品：{{item.food1}}</view>
+   <view>第二选择菜品：{{item.food2}}</view>
+   <view>第三选择菜品：{{item.food3}}</view>
+</view>
+<view class="order">
+  <view>餐厅名称：{{item.canteen}}</view>
+  送餐地址：{{item.address}}
+ <view wx:if="{{item.roomnum}}"> 宿舍门牌：{{item.roomnum}}</view> 
+  <view>截止时间：2月29号24点</view>
+</view>
+<button class="btn1">完成订单</button>
+<button class="btn2">取消订单</button>

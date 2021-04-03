@@ -1,0 +1,6 @@
+/* components/address/address.wxss */
+span{
+  display: inline-block;
+  font-size: large;
+  margin-left: 100rpx;
+}

@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myorder/myorder",
+    "pages/profiles/profiles",
+    "pages/orderitem/orderitem",
+
+
+ 
+    
+    
+    "pages/publish/publish",
+
+    "pages/1/1",
+   
+    "pages/userorder/userorder",
+    
+
+    "pages/orderstatus/orderstatus",
+    "pages/tucao/tucao",
+    "pages/iteminfo/iteminfo",
+    "pages/xuyuan/xuyuan",
+    "pages/lingqu/lingqu"
+ 
+  ],
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/yemian1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/profiles/profiles",
+        "text": "我的",
+        "iconPath": "images/ren.png",
+        "selectedIconPath": "images/wode.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-button": "./miniprogram_npm/vant-weapp/button/index",
+    "van-popup": "./miniprogram_npm/vant-weapp/popup/index",
+    "van-overlay": "./miniprogram_npm/vant-weapp/overlay/index",
+    "van-field": "./miniprogram_npm/vant-weapp/field/index",
+    "van-dialog": "./miniprogram_npm/vant-weapp/dialog/index",
+    "van-toast": "./miniprogram_npm/vant-weapp/toast/index",
+    "van-search": "./miniprogram_npm/vant-weapp/search/index",
+    "van-tab": "./miniprogram_npm/vant-weapp/tab/index",
+    "van-tabs": "./miniprogram_npm/vant-weapp/tabs/index"
+    
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "针不戳",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

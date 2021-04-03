@@ -1,0 +1,36 @@
+<!--components/item/item.wxml-->
+
+   <view class="itemcontent" data-onlyid="{{item.onlyid}}" bindtap="todetail">
+     <view  class="itemhead">
+      <view class="userinfo">
+     <image src="../../images/qian(1).png"></image>
+     <span class="username">￥{{item.salary}}</span>
+    </view>
+    <view class="userinfo room" wx:if="{{item.roomnum}}">
+      <span class="username">送餐到户</span>
+    
+    </view>
+   
+     </view>
+     <view class="ordercontent">
+       <view class="detailitem">
+        
+         <view> 
+           <image src="../../images/shitangdiancan.png"> </image>
+          <text> 餐厅：{{item.canteen}}</text>
+          </view>
+          <view> 
+           <image src="../../images/zhuzhi.png"> </image>
+          <text> 送到地址：{{item.address}}</text>
+          </view>
+    
+          <view> 
+           <image src="../../images/shijian.png"> </image>
+          <text> 送达时间：{{item.servicetime}}</text>
+          </view>
+       </view>
+       <view class="itemstatus">状态:{{item.orderstatus}}</view>
+
+
+   </view>
+</view>

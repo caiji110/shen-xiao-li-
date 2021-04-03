@@ -1,0 +1,6 @@
+/* components/time/time.wxss */
+span{
+  display: inline-block;
+  font-size: large;
+  margin-left: 100rpx;
+}

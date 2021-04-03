@@ -1,0 +1,10 @@
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="正在配送">
+    <itemcpm wx:if="{{delivering}}" wx:for="{{delivering}}"propdata = "{{item}}" wx:key="index"></itemcpm>
+
+  </van-tab>
+  <van-tab title="已配送">内容 1</van-tab>
+  <van-tab title="已发布">内容 2</van-tab>
+   
+ 
+</van-tabs>

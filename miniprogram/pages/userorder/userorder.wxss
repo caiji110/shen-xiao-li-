@@ -1,0 +1,29 @@
+/* miniprogram/pages/userorder/userorder.wxss */
+.title{
+  text-align-last: center;
+  margin: 20rpx 0;
+  padding: 20rpx 20rpx;
+  background-color: rgb(241, 241, 241);
+}
+.info{
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  margin: 50rpx 0;
+ 
+}
+.tips{
+  font-size: 12px;
+  color: grey;
+}
+.box{
+  margin-left: 10%;
+}
+.t2{
+  display: inline-block;
+  margin-left:20% ;
+}
+button{
+   border: 1px solid grey;
+   box-shadow: 1rpx 1rpx grey;
+   margin-bottom: 50rpx;
+}

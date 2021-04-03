@@ -1,0 +1,13 @@
+<!--components/time/time.wxml-->
+<picker mode="multiSelector" 
+ bindchange="bindChange" 
+ bindcolumnchange="bindMultiPickerColumnChange" 
+ value="{{index}}" range="{{pickerTime}}">
+
+  <view class="picker">
+     送达时间：
+      <span>{{h}}点:{{m}}分</span>
+    </view>
+</picker>
+
+ 

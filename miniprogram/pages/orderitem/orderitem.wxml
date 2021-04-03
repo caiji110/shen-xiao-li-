@@ -1,0 +1,11 @@
+<!--miniprogram/pages/orderitem/orderitem.wxml-->
+
+<van-search
+  model: value="{{ value }}"
+  placeholder="请输入餐厅+地址搜索，例：荔山+红豆"
+  show-action
+  bind:search="onSearch"
+  bind:cancel="onCancel"
+/>
+<itemcpm wx:if="{{!orderitem}}" wx:for="{{ordergather}}"propdata = "{{item}}" wx:key="index"></itemcpm>
+<itemcpm wx:if="{{orderitem}}" wx:for="{{orderitem}}"propdata = "{{item}}" wx:key="index"></itemcpm>

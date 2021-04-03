@@ -1,0 +1,25 @@
+<!--pages/profiles/profiles.wxml-->
+<view class="header">
+  <!-- <image src="../../images/ren.png"></image>-->
+    <button  wx:if="{{!username}}" open-type="getUserInfo" bindgetuserinfo = 'aa'>
+  登录
+</button>
+ 
+<image wx:if="{{img}}" src="{{img}}"></image>
+<text wx:if="{{username}}">{{username}}</text> 
+</view>
+
+
+<view class="order">
+  <navigator url="../myorder/myorder" >  我的订单</navigator>
+ 
+</view>
+<view class="info" bindtap="toinfo">
+  默认信息
+</view>
+<view class="addwe">
+  加入我们
+</view>
+<view class="contactwe">
+ 联系我们
+</view>

@@ -1,0 +1,27 @@
+/* pages/profiles/profiles.wxss */
+.header image{
+  width: 180rpx;
+  height: 180rpx;
+  border: 1px solid grey;
+  border-radius: 90rpx;
+}
+.header{
+  display: flex;
+  margin: 60rpx 0 0 10% ;
+  border: 2px solid rgb(223, 221, 221);
+  border-left:0;
+  border-right: 0;
+  padding: 20rpx;
+}
+.header text{
+  position: relative;
+  top: 80rpx;
+  left: 30rpx;
+}
+.order ,.info ,.addwe ,.contactwe{
+  margin-left: 10%;
+padding: 60rpx 0 60rpx 20rpx;
+  border: 2px solid rgb(223, 221, 221);
+  border-left:0;
+  border-right: 0;
+}

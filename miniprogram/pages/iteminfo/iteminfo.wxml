@@ -1,0 +1,33 @@
+<!--miniprogram/pages/iteminfo/iteminfo.wxml-->
+<!--miniprogram/pages/orderstatus/orderstatus.wxml-->
+<text class="title">订单详情</text>
+<view wx:if="{{item}}">
+   <view class="order">
+   订单状态：{{item.orderstatus}}
+</view>
+<view class="order">
+   食堂：{{item.canteen}}
+</view>
+<view class="order">
+   <view>第一选择菜品：{{item.food1}}</view>
+   <view>第二选择菜品：{{item.food2}}</view>
+   <view>第三选择菜品：{{item.food3}}</view>
+   <view class = "tips1" >意思为如果第一选择菜品可以买到就只买第一选择菜品，不行就第二选择菜品，再不行就第三选择菜品</view>
+</view>
+<view class="order">
+  送餐地址：{{item.address}}
+  <view>订单接单截止时间：{{item.endtime}}</view>
+  <view>餐盒最晚送达时间：{{item.servicetime}}</view>
+</view>
+<view class="order">
+   酬金￥：{{item.salary}}
+</view>
+<view class="tips">
+  <text>手机号码或者微信号只有在接单之后才可见</text>
+</view>
+</view>
+
+<button class="btn2" wx:if="{{!forbid}}" bindtap="toorderinfo">{{item.orderstatus}}</button>
+<button class="btn2" wx:if="{{forbid}}" disabled = 'true' bindtap="toorderinfo">{{item.orderstatus}}</button>
+
+

@@ -1,0 +1,62 @@
+<!--miniprogram/pages/userorder/userorder.wxml-->
+<view wx:if="{{item}}" class="box">
+  <view class="title">我的订单</view>
+  <view class="info">
+    <text>餐厅信息:</text>
+    <text class="t2">{{item.canteen}}</text>
+  </view>
+  <view class="info">
+    <text>菜品信息:</text>
+    <text class="t2">{{item.food1}}</text>
+  </view>
+  <text class="tips">注：若无明确想吃的，想让带餐的同学随机选建议备注好吃饭预算:</text>
+  <view class="info">
+    <text>备选菜品:</text>
+    <text class="t2">{{item.food2}}</text>
+
+  </view>
+  <view class="info">
+    <text>备选菜品:</text>
+    <text class="t2">{{item.food3}}</text>
+      </view>
+  <view class="info">
+    <text>支付酬金:</text>
+    <text class="t2">{{item.salary}}</text>
+  </view>
+  <view class="info">
+    <text>手机号码:</text>
+    <text class="t2">{{item.phone}}</text>
+  
+  </view>
+  <view class="info">
+    <text>微信号码:</text>
+    <text class="t2">{{item.wxnum}}</text>
+  </view>
+  <view class="info">
+    <text>收餐地址:</text>
+    <text class="t2">{{item.address}}</text>
+  </view>
+  <view class="info" wx:if="{{item.roomnum}}">
+    <text>宿舍门号:</text>
+    <text class="t2">{{item.roomnum}}</text>
+  </view>
+  <view class="info">
+    <text>截止时间:</text>
+    <text class="t2">{{item.endtime}}</text>
+    
+  </view>
+  <view class="info">
+    <text>送达时间:</text>
+    <text class="t2">{{item.servicetime}}</text>
+  </view>
+  <view class="info">
+    <text>订单状态:</text>
+    <text class="t2">未接单</text>
+  </view>
+  <view class="info">
+    <text>订单编号:</text>
+    <text class="t2"  selectable='true' >{{item.onlyid}}</text>
+  </view>
+
+</view>
+<button bindtap="tohome">返回首页</button>

@@ -1,0 +1,37 @@
+/* miniprogram/pages/iteminfo/iteminfo.wxss */
+/* miniprogram/pages/orderstatus/orderstatus.wxss */
+.title{
+  text-align-last: center;
+  margin: 20rpx 0;
+  padding: 20rpx 20rpx;
+  background-color: rgb(241, 241, 241);
+}
+.order{
+  margin-left: 10%;
+  padding: 60rpx 0 60rpx 20rpx;
+    border: 2px solid rgb(223, 221, 221);
+    border-left:0;
+    border-right: 0;
+}
+button{
+  border: 1px solid grey;
+  margin: 20rpx 0;
+}
+.tips{
+  margin: 60rpx 0;
+  margin-left: 10%;
+  font-size: 12px;
+  color:rgb(160, 158, 158) ;
+}
+.tips1{
+  font-size: 15px;
+  margin-top:40rpx ;
+  color:rgb(160, 158, 158) ;
+}
+.btn2{
+  width: 300rpx;
+  border: 1px  solid  grey;
+  margin: 30rpx 0;
+  margin-left: 30%;
+  box-shadow: 1px 1px gray;
+}

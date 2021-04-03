@@ -1,0 +1,58 @@
+/* components/item/item.wxss */
+.itemhead{
+  display: flex;
+
+}
+
+.userinfo{
+  flex: 3;
+}
+.userinfo image ,.detailitem image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.username{
+  display: inline-block;
+  position: relative;
+ top: -17rpx;
+ left: 20rpx;
+}
+.itemcontent{
+  padding-top: 50rpx;
+  margin-bottom: 20rpx;
+  margin-left: 60rpx;
+  /* background-color:red; */
+  border-top: 1px solid rgb(214, 214, 214);
+  
+}
+.ordercontent{
+
+  color:rgba(37, 37, 37, 0.678) ;
+  margin-top: 30rpx;
+  display: flex;
+}
+.detailitem{
+  flex: 2;
+ 
+  padding-bottom: 20rpx;
+}
+.itemstatus{
+  position: relative;
+  top: 18rpx;
+  flex: 1;
+}
+.detailitem view{
+  margin: 15rpx 0;
+}
+.detailitem view text{
+  position: relative;
+  top: -17rpx;
+  left: 10rpx;
+  color: black;
+
+}
+.room{
+  position: relative;
+  left: -180rpx;
+  top: 30rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "itemcpm":"../../components/item/item"
+
+  }
+}

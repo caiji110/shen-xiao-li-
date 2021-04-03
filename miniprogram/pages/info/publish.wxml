@@ -1,0 +1,43 @@
+<!--miniprogram/pages/publish/publish.wxml-->
+<text class="title">填写订单:</text>
+<form >
+  <view class="info">
+    <text>餐厅信息:</text>
+    <input  type="text" placeholder="请输入你要求的餐厅"/>
+  </view>
+  <view class="info">
+    <text>菜品信息:</text>
+    <input  type="text" placeholder="请输入你想要的菜品"/>
+  </view>
+  <text class="tips">注：若无明确想吃的，想让带餐的同学随机选建议备注好吃饭预算:</text>
+  <view class="info">
+    <text>备选菜品:</text>
+    <input  type="text" placeholder="若无可不填"/>
+  </view>
+  <view class="info">
+    <text>备选菜品:</text>
+    <input  type="text" placeholder="若无可不填"/>
+  </view>
+  <view class="info">
+    <text>支付酬金:</text>
+    <input  type="text" placeholder="建议2元起"/>
+  </view>
+  <view class="info">
+    <text>手机号码:</text>
+    <input  type="text" placeholder="请输入您的手机号码"/>
+  </view>
+  <view class="info">
+    <text>微信号码:</text>
+    <input  type="text" placeholder="请输入您的微信号码"/>
+  </view>
+  <view class="info">
+    <text>收餐地址:</text>
+    <input  type="text" placeholder="你猜"/>
+  </view>
+  <view class="info">
+    <text>送达时间:</text>
+    <input  type="text" placeholder="你猜"/>
+  </view>
+  
+</form>
+<button>保存信息</button>

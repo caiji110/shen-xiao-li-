@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "time1":"../../components/time/time",
+    "address1":"../../components/address/address"
+  }
+}

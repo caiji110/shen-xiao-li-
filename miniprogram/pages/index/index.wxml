@@ -1,0 +1,49 @@
+<!--miniprogram/pages/index/index.wxml-->
+<text>miniprogram/pages/index/index.wxml</text>
+<swiper indicator-dots='true' indicator-active-color='#F8F8FF' class="img">
+<swiper-item> <image src="../../images/code-cloud-callback-config.png"></image></swiper-item>
+<swiper-item><image src="../../images/code-db-inc-dec.png"></image></swiper-item>
+</swiper>
+<view  class="nav">
+  <view>
+   <image src="../../images/zai.png">
+   
+   </image>
+  <text bindtap="toorder">我想偷懒</text> 
+  </view>
+  <view>
+    <image src="../../images/paotui.png">
+     
+    </image>
+    <text bindtap="tohelp">   我想帮忙</text>
+  </view>
+</view>
+<view  class="nav">
+  <view>
+   <image src="../../images/tucao.png">
+   
+   </image>
+  <text>我想吐槽</text> 
+  </view>
+  <view>
+    <image src="../../images/zudui.png">
+     
+    </image>
+    <text>   我想组队</text>
+  </view>
+</view>
+
+<view  class="nav">
+  <view>
+   <image src="../../images/xuyuan.png">
+   
+   </image>
+  <text>我想许愿</text> 
+  </view>
+  <view>
+    <image src="../../images/lingqu.png">
+     
+    </image>
+    <text>   我想领取</text>
+  </view>
+</view>

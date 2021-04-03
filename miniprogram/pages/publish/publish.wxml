@@ -1,0 +1,50 @@
+<!--miniprogram/pages/publish/publish.wxml-->
+<text class="title">填写订单:</text>
+<form bindsubmit="orderdata">
+  <view class="info">
+    <text>餐厅信息:</text>
+    <input  type="text" name = 'canteen' model:value="{{canteen}}"  placeholder="请输入你要求的餐厅"/>
+  </view>
+  <view class="info">
+    <text>菜品信息:</text>
+    <input  type="text" name = 'food1'  model:value="{{food1}}"  placeholder="请输入你想要的菜品"/>
+  </view>
+  <text class="tips">注：若无明确想吃的，想让带餐的同学随机选建议备注好吃饭预算:</text>
+  <view class="info">
+    <text>备选菜品:</text>
+    <input  name = 'food2' type="text" model:value="{{food2}}" placeholder="若无可不填"/>
+  </view>
+  <view class="info">
+    <text>备选菜品:</text>
+    <input  name = 'food3' type="text" model:value="{{food3}}" placeholder="若无可不填"/>
+  </view>
+  <view class="info">
+    <text>支付酬金:</text>
+    <input  name = 'salary' type="text" model:value="{{salary}}"  placeholder="建议2元起"/>
+  </view>
+  <view class="info">
+    <text>手机号码:</text>
+    <input  name = 'iphone' type="text"  model:value="{{iphone}}"  placeholder="请输入您的手机号码"/>
+  </view>
+  <view class="info">
+    <text>微信号码:</text>
+    <input  name = 'wxnum' type="text" model:value="{{wxnum}}"  placeholder="请输入您的微信号码"/>
+  </view>
+  <view class="info">
+    <address1 bindmyevent= 'changeaddress'></address1>
+  </view>
+  <view class="info">
+    <text>宿舍门号:</text>
+    <input  name = 'roomnum' type="text"  model:value="{{roomnum}}"  placeholder="若不要求可不填"/>
+  </view>
+  <view class="info">
+    <text>截止时间:</text>
+    <input  name = 'endtime' type="text"  model:value="{{endtime}}"  placeholder="你猜"/>
+  </view>
+  <view class="info" >
+  
+    <time1 bindmyevent='changetime'></time1>
+  </view>
+  <button form-type="submit" class="btn" bindtap="tohome">提交订单</button>
+</form>
+<van-toast id="van-toast" />

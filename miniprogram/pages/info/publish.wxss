@@ -1,0 +1,30 @@
+/* miniprogram/pages/publish/publish.wxss */
+.title{
+  text-align-last: center;
+  margin: 20rpx 0;
+  padding: 20rpx 20rpx;
+  background-color: rgb(241, 241, 241);
+}
+.info{
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  margin: 50rpx 0;
+ 
+}
+.info input{
+  border: 1px solid rgba(209, 206, 206, 0.712);
+}
+.tips{
+  font-size: 12px;
+  color: grey;
+}
+input{
+  margin-left: 100rpx;
+}
+form{
+  margin-left: 10%;
+}
+button{
+  border: 1px  solid  grey;
+  margin: 30rpx 0;
+}
